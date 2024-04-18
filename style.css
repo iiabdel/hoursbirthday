@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9EB384;
+    color: #505e5a;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #435334;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FAF1E4;
+}
+
+header #name {
+    margin: 0;
+    color:  #FAF1E4;
+    font-family: "Dancing Script", cursive;
+}
+
+nav {
+    flex-basis: 100%;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FAF1E4;;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#faf4df;
+    border-radius: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+#section2{
+    color: white;
+    background-color: #121212;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    header #name {
+        flex-basis: 50%;
+    }
+
+    nav {
+        flex-basis: 50%;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    header {
+       
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
